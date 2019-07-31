@@ -1,8 +1,9 @@
-module go-docker
+module github.com/paradoxical-io/go-docker
 
 go 1.12
 
 require (
+	github.com/Microsoft/go-winio v0.4.13 // indirect
 	github.com/docker/distribution v2.7.1+incompatible // indirect
 	github.com/docker/docker v1.13.1
 	github.com/docker/go-connections v0.4.0
@@ -10,7 +11,7 @@ require (
 	github.com/dsnet/compress v0.0.1 // indirect
 	github.com/golang/snappy v0.0.1 // indirect
 	github.com/google/uuid v1.1.1
-	github.com/mholt/archiver v3.1.1+incompatible
+	github.com/mholt/archiver v3.1.1+incompatible // indirect
 	github.com/nwaples/rardecode v1.0.0 // indirect
 	github.com/opencontainers/go-digest v1.0.0-rc1 // indirect
 	github.com/pierrec/lz4 v2.2.5+incompatible // indirect
